@@ -5,9 +5,11 @@ struct student{
     char name[10];
     int id;
 
-}e1,e2;
+};
 
 int main(){
+    student wasim;
+
     e1.name="wasim";
     e1.id=20;
     printf("%s", e1.name);

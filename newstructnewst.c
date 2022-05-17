@@ -34,7 +34,7 @@ int main(void){
     printf("stdudent id is %f\n", e1.marks);
     printf("stdudent id is %s", e1.name);
     for (int i=1; i<3; i++){
-        printf("stdudent id is %d%f%s\n", e1.id[i], e1.marks[i], e1.name[i]);
+        printf("stdudent id is %d%f%s", e1.id[i], e1.marks[i], e1.name[i]);
     //     printf("stdudent id is %f\n", e1.marks);
     //     printf("stdudent id is %s", e1.name);
     }
