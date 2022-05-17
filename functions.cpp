@@ -2,7 +2,7 @@
 
 using namespace std;
 
-// int sum(int, int);
+int sum(int, int);
 
 int main(){
     int a=5;
@@ -12,4 +12,6 @@ int main(){
     return 0;
 }
 
-funct
+int sum(int x, int y){
+    return x+y;
+}
